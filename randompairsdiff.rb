@@ -5,8 +5,11 @@ def random_pair(pair)
 		case 
 		when x.length == 2
 			ary.push(x)
+		when x.length == 1
+			ary[rand(ary.length)].concat(x)
 		end
 	end
+	p ary
 	return ary
 
 end
