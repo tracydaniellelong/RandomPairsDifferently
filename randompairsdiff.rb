@@ -9,7 +9,6 @@ def random_pair(pair)
 			ary[rand(ary.length)].concat(x)
 		end
 	end
-	p ary
 	return ary
 
 end
