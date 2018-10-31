@@ -26,4 +26,5 @@ class Testing < Minitest::Test
 		pair = random_pair([1, 2, 3, 4, 5, 6, 7, 8, 9])
 		assert_equal(2, pair.count)
 	end
+    
 end
