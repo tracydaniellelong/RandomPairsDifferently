@@ -4,7 +4,7 @@ require_relative 'randompairsdiff.rb'
 class Testing < Minitest::Test
 	def test_pairs_with_2_elements
 		pair = random_pair(["apple", "orange"])
-		assert_equal(0, pair.count)
+		assert_equal(1, pair.count)
 	end
 	def test_pairs_with_5_elements
 		pair = random_pair(["apple", "orange", "grape", "pear", "lemon"])
